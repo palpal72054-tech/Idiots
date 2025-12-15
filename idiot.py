@@ -14,7 +14,7 @@ def to(s):
         time.sleep(23.0 / 8000)
   
 # New logo
-ab = pyfiglet.figlet_format("TABBU")
+ab = pyfiglet.figlet_format("IDIOT")
 print(R + ab)
 
 # Display Information
@@ -64,7 +64,7 @@ accounts = []
 # Function to create Safeum accounts
 def work():
     global failed, success, retry
-    username = choice('abcdefghijklmopnqrstyuzyx') + ''.join(choices(list('abcdefghijklmopnqrstyuzyx1234567890'), k=12))
+    username = choice('idiotsipun') + ''.join(choices(list('idiotsipun1234567890'), k=12))
     try:
         con = create_connection("wss://193.200.173.45/Auth", header={
             "app": "com.safeum.android",
@@ -122,7 +122,7 @@ def work():
 start = ThreadPoolExecutor(max_workers=5000)
 while True:
     start.submit(work)
-    print('\n\n\n' + ' ' * 25 + f'Success password will be {G}@toxic_tanji{R}\n\n\n' + ' ' * 25 + f'Failed : {R}' + str(failed) + '\n\n\n' + ' ' * 25 + f'ReTry : {R}' + str(retry))
+    print('\n\n\n' + ' ' * 25 + f'Success password will be {G}idiot{R}\n\n\n' + ' ' * 25 + f'Failed : {R}' + str(failed) + '\n\n\n' + ' ' * 25 + f'ReTry : {R}' + str(retry))
     if int(success) > int(0): 
         print("\n Accounts :  " + "\n".join(accounts))
     os.system("clear")  # Clear the screen
