@@ -21,9 +21,9 @@ print(R + ab)
 to(
     f"""\x1b[1;92mAUTHOR   : \x1b[1;92mSipun \x1b[1;92mPati
 Tools    : \x1b[1;93mSafeUm Account Creator     \x1b[1;92m  
-\x1b[1;93mJanu     : \x1b[1;92mItz Sipun 🐥          
-\x1b[1;92mVERSION  : \x1b[1;93m2.0      \x1b[1;95m          
-𝐋𝐎𝐆𝐎 𝐊𝐀 𝐊𝐘𝐀 𝐇 𝐔𝐍𝐊𝐀 𝐓𝐎 𝐊𝐀𝐌 𝐇 𝐇𝐈 𝐉𝐀𝐋𝐍𝐀\x1b[1;91m"""
+\x1b[1;93mIDIOT     : \x1b[1;92mSipun Xwd✅        
+\x1b[1;92mVERSION  : \x1b[1;93m2.0 paid    \x1b[1;95m          
+ℑ𝔡𝔦𝔬𝔱 𝔫𝔞𝔪𝔢 𝔫𝔞𝔥𝔦𝔦𝔫 𝔟𝔯𝔞𝔫𝔡 𝔥𝔞𝔦 𝔟𝔯𝔞𝔫𝔡\x1b[1;91m"""
 )
 
 def slow(T): 
@@ -64,7 +64,7 @@ accounts = []
 # Function to create Safeum accounts
 def work():
     global failed, success, retry
-    username = choice('zridiotsipunxwd') + ''.join(choices(list('zridiotsipunxwd1234567890'), k=12))
+    username = choice('agrmunsonyikpk') + ''.join(choices(list('agrmunsonyikpk1234567890'), k=12))
     try:
         con = create_connection("wss://193.200.173.45/Auth", header={
             "app": "com.safeum.android",
