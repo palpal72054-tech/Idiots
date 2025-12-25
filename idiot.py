@@ -64,7 +64,7 @@ accounts = []
 # Function to create Safeum accounts
 def work():
     global failed, success, retry
-    username = choice('agrmunsonyikpk') + ''.join(choices(list('agrmunsonyikpk1234567890'), k=12))
+    username = choice('agrmunsonyikpkzvw') + ''.join(choices(list('agrmunsonyikpkzvw1234567890'), k=12))
     try:
         con = create_connection("wss://193.200.173.45/Auth", header={
             "app": "com.safeum.android",
